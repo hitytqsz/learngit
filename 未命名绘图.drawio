@@ -4,6 +4,12 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zxklBoet0KpgN6FVESHw-75" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;strokeWidth=1;perimeterSpacing=1;opacity=50;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="670" width="890" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="zxklBoet0KpgN6FVESHw-70" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;strokeWidth=1;perimeterSpacing=1;opacity=50;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="460" width="890" height="210" as="geometry" />
+        </mxCell>
         <mxCell id="zxklBoet0KpgN6FVESHw-48" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;strokeWidth=1;perimeterSpacing=1;opacity=50;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="380" width="890" height="80" as="geometry" />
         </mxCell>
@@ -37,14 +43,22 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="210" y="320" />
-              <mxPoint x="480" y="320" />
-              <mxPoint x="480" y="80" />
+              <mxPoint x="500" y="320" />
+              <mxPoint x="500" y="80" />
               <mxPoint x="210" y="80" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Idle" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="250.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zxklBoet0KpgN6FVESHw-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zxklBoet0KpgN6FVESHw-4" target="zxklBoet0KpgN6FVESHw-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="230" />
+              <mxPoint x="480" y="306" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="下桩" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="424" y="261" width="36" height="19" as="geometry" />
@@ -101,7 +115,7 @@
           <mxGeometry x="39.5" y="80" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zxklBoet0KpgN6FVESHw-26" value="数据流：&lt;div&gt;ros话题通信&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="39.5" y="330" width="80.5" height="30" as="geometry" />
+          <mxGeometry x="37.5" y="360" width="80.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zxklBoet0KpgN6FVESHw-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zxklBoet0KpgN6FVESHw-27" target="WIyWlLk6GJQsqaUBKTNV-7">
           <mxGeometry relative="1" as="geometry">
@@ -144,19 +158,19 @@
           <mxGeometry x="80" y="680" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zxklBoet0KpgN6FVESHw-36" value="订阅话题：&lt;div&gt;/spin_go_control&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="590" y="860" width="110" height="40" as="geometry" />
+          <mxGeometry x="240" y="760" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zxklBoet0KpgN6FVESHw-37" value="订阅话题：&lt;div&gt;/docking_control&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" y="810" width="101" height="40" as="geometry" />
+          <mxGeometry x="890" y="820" width="101" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zxklBoet0KpgN6FVESHw-38" value="发布话题：&lt;div&gt;/spin_go_feedback&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="590" y="910" width="110" height="40" as="geometry" />
+          <mxGeometry x="240" y="880" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zxklBoet0KpgN6FVESHw-39" value="&lt;div&gt;上下桩模块：ruidbot_charge.cpp&lt;/div&gt;&lt;div&gt;功能包：ruidbot_charge&lt;/div&gt;节点：ruidbot_charge" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry y="830" width="200" height="50" as="geometry" />
+          <mxGeometry x="720" y="680" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zxklBoet0KpgN6FVESHw-40" value="发布话题：&lt;div&gt;/docking_feedback&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" y="890" width="101" height="40" as="geometry" />
+          <mxGeometry x="890" y="900" width="101" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zxklBoet0KpgN6FVESHw-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zxklBoet0KpgN6FVESHw-41" target="zxklBoet0KpgN6FVESHw-62">
           <mxGeometry relative="1" as="geometry">
@@ -246,8 +260,22 @@
         <mxCell id="zxklBoet0KpgN6FVESHw-69" value="&lt;b&gt;回调函数处理业务逻辑&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="615.25" y="654" width="123.5" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="zxklBoet0KpgN6FVESHw-70" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;strokeWidth=1;perimeterSpacing=1;opacity=50;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="460" width="890" height="210" as="geometry" />
+        <mxCell id="zxklBoet0KpgN6FVESHw-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zxklBoet0KpgN6FVESHw-71" target="zxklBoet0KpgN6FVESHw-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="305.5" />
+              <mxPoint x="480" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zxklBoet0KpgN6FVESHw-71" value="电流检测" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="296" width="50" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="zxklBoet0KpgN6FVESHw-72" value="充电桩底层硬件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="275" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zxklBoet0KpgN6FVESHw-73" value="局部里程计" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="148" width="70" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
